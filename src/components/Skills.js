@@ -1,12 +1,14 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Skills() {
     return (
         <div>
             <div className="Skills">
                 <section className="skillsEL">
-                    <img alt="HTML5, JavaScript and CSS" src={ require("/Users/sam/Desktop/Software Engineering/Portfolio SE/my-business-card/src/assets/HTMLJSCSS.png") }/>
-                    <img id="reactEL" alt="React" src={ require("/Users/sam/Desktop/Software Engineering/Portfolio SE/my-business-card/src/assets/React.png") }/>
+                <FontAwesomeIcon icon="fa-brands fa-html5" />
+                <FontAwesomeIcon icon="fa-brands fa-css3" />
+                <FontAwesomeIcon icon="fa-brands fa-react" />
                 </section>
             </div>
                 <div className="Main Description DescriptionLanguageSkills">

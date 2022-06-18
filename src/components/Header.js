@@ -1,6 +1,9 @@
-import React from "react"
-//import ProfilePicture from "src/assets/Sam.jpg"
+import React from 'react'
 
 export default function Header() {
-    return <img id="profilePicture" alt="Profile Picture of me" src={ require("/Users/sam/Desktop/Software Engineering/Portfolio SE/my-business-card/src/assets/Sam.png") }/>
+  return (
+    <div>
+        <img id="profilePicture" alt="Profile"/>
+    </div>
+  )
 }

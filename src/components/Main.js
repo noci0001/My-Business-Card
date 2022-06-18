@@ -1,4 +1,5 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Main() {
     return (
@@ -9,8 +10,8 @@ export default function Main() {
                 <h3 id="mail">noci0001@hz.nl</h3>
             </section>
             <section className="linksBtn">
-                <button id="mailBtn" className="btnEl"><a href="mailto:noci0001@hz.nl" target="_blank" rel="noreferrer"><h3><img alt="Mail link" src={ require("/Users/sam/Desktop/Software Engineering/Portfolio SE/my-business-card/src/assets/Mail.svg").default }/>Email</h3></a></button>
-                <button id="dinBtn" className="btnEl"><a href="https://www.linkedin.com/in/samuelnocita/?trk=public-profile-join-page" target="_blank" rel="noreferrer"><h3><img alt="LinkedIn link" src={ require("/Users/sam/Desktop/Software Engineering/Portfolio SE/my-business-card/src/assets/Icon/Font Awesome Free/Brands/L/linkedin.svg").default }/>LinkedIn</h3></a></button>
+                <button id="mailBtn" className="btnEl"><a href="mailto:noci0001@hz.nl" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-thin fa-envelope" /><h3>Email</h3></a></button>
+                <button id="dinBtn" className="btnEl"><a href="https://www.linkedin.com/in/samuelnocita/?trk=public-profile-join-page" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon="fa-brands fa-linkedin" /><h3>LinkedIn</h3></a></button>
             </section>
             <section className="Description">
                 <h1>About</h1>
