@@ -1,0 +1,33 @@
+.app__header{
+  display: grid;
+  justify-content: center;
+}
+
+.app__profilePic{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.app__profilePic *{
+  color: white;
+}
+
+.app__profilePic h1{
+  font-family: var(--ff-primary);
+  font-weight: 600;
+}
+
+img{
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: '360px'){
+    
+}
+@media screen and (max-width: '1000px'){
+    img{
+      height: 100px;
+    }
+}

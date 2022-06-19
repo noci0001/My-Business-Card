@@ -3,9 +3,8 @@
 }
 
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
-  --typewriterSpeed: 6s;
+  --ff-primary: 'Source Code Pro', monospace;
+  --ff-secondary: 'Anek Latin', sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -28,8 +27,9 @@
 
 body{
     font-family: var(--ff-primary);
-    background-color: var(--clr-back);
-    width: 360px;
+    background-color: #485461;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -37,157 +37,8 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 
-img{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-.Main{
-  border-radius: 7px;
-  padding: 0 0 0.1em 0;
-  margin: 0;
-  background-color: var(--clr-dark);
-}
 
-#name{
-    font-size: var(--fs-h1);
-    font-weight: var(--fw-bold);
-    padding: 0.5em 0 0 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
-#title{
-    font-weight: var(--fw-reg);
-    font-size: var(--fw-reg);
-    color: #F3BF99;
-    padding: 0;
-    margin: 0;
-}
 
-#mail{
-    font-size: var(--fs-h2);
-    font-weight: var(--fw-reg);
-}
 
-.linksBtn{
-    display: inline-flex;
-    width: 90%;
-    justify-content: space-around;
-    justify-items: center;
-    align-content: center;
-}
-
-.linksBtn img{
-  width: 20px;
-}
-
-.linksBtn h3{
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-}
-
-.btnEl{
-    display: inline-flex;
-    padding: 0 2em;
-    border-radius: 7px;
-    box-shadow: var(--bs);
-}
-
-#dinBtn{
-    background-color: #5093E2;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-#dinBtn a {
-    color: white;
-}
-
-.Description{
-    text-align: left;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.Description h1{
-    font-size: var(--fs-h1);
-}
-.Description h3{
-    font-size: var(--fs-h2);
-    font-weight: var(--fw-reg);
-    line-height: 130%;
-}
-
-.DescriptionLanguageSkills ul{
-    
-    margin-left: -40px;
-    list-style-type: none;
-    line-height: 30px;
-    color: var(--clr-highlight);
-}
-
-.DescriptionLanguageSkills {
-    width: 100%;
-    border-radius: 7px;
-    padding: 2em;
-    background-color: var(--clr-dark);
-}
-
-.Skills{
-    display: inline-flex;
-    width: 100%;
-    background-color: rgba(145, 142, 155, 0.77);
-    border-radius: 7px;
-}
-
-.Skills *{
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    width: 200px;
-    margin: 0 auto;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-#reactEL{
-    margin-top: 0.5em;
-    padding-left: 10px;
-    width: 60px;
-}
-
-.Footer{
-  margin-top: 0.3em;
-}
-
-.socialLinks {
-    width: 100%;
-    padding: 1em;
-    background-color: #161619;
-    display: inline-flex;
-    width: 100%;
-    justify-content: center;
-    border-radius: 7px;
-}
-
-.socialLinks * {
-    width: 2.5rem;
-    margin: 0 10px;
-}
-
-#profilePicture{
-    border-radius: 7px;
-    background-color: var(--clr-dark);
-}
-
-.highlighted{
-    color: var(--clr-highlight);
-}
