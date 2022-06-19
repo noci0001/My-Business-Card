@@ -1,6 +1,4 @@
 import React from "react"
-import { AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
-import { GiSpiderWeb } from 'react-icons/gi';
 import './main.css';
 
 const Main = () => (
@@ -9,7 +7,7 @@ const Main = () => (
                 <h2 id="title">Frontend Engineer</h2>
                 <h3><a href="mailto:write@samuelnocita.com">write@samuelnocita.com</a></h3>
                 {/* <button type="button" className="button"><a href="https://www.samuelnocita.com" style={{color: 'black', fontSize:27, justifyContent:'center', fontFamily: 'Source Code Pro'}}> Visit My website</a></button> */}
-                <button class="button-36" role="button"><h1>Visit my website</h1></button>
+                <button class="button-36"><h1>Visit my website</h1></button>
                 
             </section>
 
